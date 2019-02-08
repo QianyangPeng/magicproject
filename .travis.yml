@@ -10,6 +10,7 @@ before_install:
   - cp -rT jedis-e963d3ffa36b2b08ecfe4e70db957dc4734128b5 ./
   - rm -r jedis-e963d3ffa36b2b08ecfe4e70db957dc4734128b5
   - rm e963d3ffa36b2b08ecfe4e70db957dc4734128b5.zip
+
     - wget -O stunnel.tar.gz ftp://ftp.stunnel.org/stunnel/archive/5.x/stunnel-5.29.tar.gz
     - tar -xvzf stunnel.tar.gz
     - cd ./stunnel-5.29 && ./configure && make && sudo make install && cd ..
